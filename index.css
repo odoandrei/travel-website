@@ -1,0 +1,673 @@
+@font-face {
+    font-family: Nunito-VariableFont_wght;
+    src: url(Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Cormorant-font;
+    src: url(Cormorant-MediumItalic.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* intro section */
+
+#title{
+    display: flex;
+    text-align: center;
+    z-index: 10;
+}
+
+#title{
+    position: fixed;
+    text-align: left;
+    min-width: 6000px;
+    padding: 1px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #5D6370;
+    z-index: 10;
+    background-color: white;
+}
+
+.travelera{
+    font-family: Nunito-VariableFont_wght, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #479DED;
+    margin: 5px 30px 3px 30px;
+}
+
+
+/* navigation */
+
+#header-home{
+    display: flex;
+    position: relative;
+    top: 80px;
+    z-index: 9;
+    justify-content: space-around;
+    height: 90px;
+    background-color: #3A80C2;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 100%;
+}
+
+#header-home .button{
+    margin-left: auto;
+    margin-right: auto;
+    margin: 11px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0px 20px;
+    text-decoration: none;
+    line-height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 0px 3px 2px black;
+    color: #3A80C2;
+    background-color: whitesmoke;
+}
+
+#header-home .button:hover{
+    background-color: #7FC2FF;
+    border: 2px solid black;
+    color: #36424C;
+}
+
+#header-home .button:active{
+    box-shadow: 0px 0px;
+    transform: translateY(3px);
+}
+
+
+.home-plane{
+    position: relative;
+    z-index: 8;
+    bottom: 0px;
+    width: 99.90%;
+    margin: 0px 0px 0px 0px;
+}
+
+
+/* section 1 */
+
+#intro h2{
+    color: #36424C;
+    text-align: left;
+    font-size: 70px;
+    position: relative;
+    margin: 20px 100px 20px 100px;
+    line-height: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+#intro p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 25px;
+    position: relative;
+    text-align: left;
+    margin: 20px 100px 20px 100px;
+    font-weight: normal;
+}
+
+#intro strong{
+    color: #479DED;
+}
+
+/* section 2 */
+
+#benefits{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+#benefits h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #3A80C2;
+    border-radius: 10px 10px 0px 0px;
+    border: 2px solid #454341;
+    padding: 10px;
+}
+
+#benefits .trust, 
+.best-prices,
+.safety{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 20px 20px 20px;
+    line-height: 50px;
+}
+
+#benefits p{
+    font-family: serif;
+    padding: 20px;
+    font-size: 22px;
+    color: white;
+    border: 2px solid #454341;
+    background-color: #51595f;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* section 3 */
+
+#title-reviews h2{
+    color: #36424C;
+    text-align: left;
+    font-size: 70px;
+    position: relative;
+    margin: 20px 100px 20px 100px;
+    line-height: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+#reviews{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 5px 50px 5px;
+    text-align: center;
+    line-height: 30px;
+    width: 100%;
+}
+
+#reviews .review-photo{
+    border-radius: 50px;
+    box-shadow: 5px 10px 10px #888888;
+    border: 1px solid gray;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#reviews .review-photo:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px transparent;
+    transition: 0.5s;
+}
+
+#reviews h3{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-weight: normal;
+    line-height: 50px;
+    color: #36424C;
+}
+
+#reviews p{
+    font-family: serif;
+    font-size: 20px;
+}
+
+#reviews .first-review,
+.second-review,
+.third-review{
+    background-color: whitesmoke;
+    padding: 20px;
+    box-shadow: 2px 2px 20px gray;
+    margin: 20px 0px 20px 0px;
+}
+
+/* final */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #36424C;
+    font-size: 25px;
+    padding: 20px 20px 50px 20px;
+    line-height: 30px;
+}
+
+footer .concepted-p{
+    text-align: left;
+    margin: 0px 50px 0px 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #479DED;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:active{
+    color: red;
+}
+
+footer .contact-p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    color: white;
+}
+
+footer .contact{
+    text-transform: uppercase;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #479DED;
+}
+
+footer .telephone{
+    cursor: pointer;
+    color: white;
+}
+
+footer .telephone:hover{
+    color: red;
+}
+
+footer .email{
+    cursor: pointer;
+    color: white;
+}
+
+footer .email:hover{
+    color: red;
+}
+
+/* breadcrumb */
+
+#breadcrumb{
+    position: relative;
+    top: 93px;
+    text-align: left;
+    list-style: none;
+}
+
+#breadcrumb a{
+    display: inline;
+}
+
+#breadcrumb li{
+    display: inline;
+}
+
+#breadcrumb .attribute,
+.location{
+    color: white;
+    background-color: #3A80C2;
+    border: 1px solid #36424C;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 20px;
+    padding: 0px 5px;
+    position: relative;
+    height: 30px;
+}
+
+#breadcrumb .location{
+    background-color: white;
+    color: #36424C;
+}
+
+#breadcrumb a::before,
+#breadcrumb a::after{
+    content: "";
+    position: absolute;
+    border-color: #36424C;
+  border-style: solid;
+  border-width: 14.1px 10px;
+}
+
+#breadcrumb a::before{
+    left: -18px;
+    top: -1px;
+    border-left-color: transparent;
+}
+
+#breadcrumb a::after{
+    left: 100.6%;
+    top: -1px;
+    border-color: transparent;
+  border-left-color: #36424C;
+}
+
+#breadcrumb .attribute:hover{
+    background-color: #36424C;
+    color: white;
+    transition: 0.3s;
+}
+
+#breadcrumb .location:hover{
+    background-color: #3A80C2;
+    color: white;
+    transition: 0.3s;
+    border: 1px solid #3A80C2;
+}
+
+#breadcrumb .location:hover::before{
+    border-color: #3A80C2;
+    border-left-color: transparent;
+}
+
+#breadcrumb .location:hover::after{
+    border-left-color: #3A80C2;
+}
+
+/* Contact-US page */
+
+/* main */
+
+#contact-main{
+    position: relative;
+    top: 110px;
+    background-image: url(https://images.pexels.com/photos/1831271/pexels-photo-1831271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    min-width: 100%;
+    max-width: 100%;
+    height: 800px;
+    margin-bottom: 110px;
+}
+
+
+#contact-title{
+    position: relative;
+    top: 30px;
+    padding: 0px;
+    margin: 0px 0px 50px 0px;
+    font-size: 30px;
+}
+
+#contact-title h1{
+    text-align: center;
+    font-family: Nunito-VariableFont_wght, Arial, Helvetica, sans-serif;;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #479DED;
+}
+
+#contact-section{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0px;
+    width: 1000px;
+    height: 550px;
+    background-color: #3A80C2;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px gray;
+}
+
+#contact-section .input{
+    display: flex;
+    position: relative;
+    top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 5px;
+    font-size: 25px;
+    margin: 20px 70px 20px 70px; 
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #36424C;
+    color: white;
+}
+
+#contact-section ::placeholder{
+    color: white;
+}
+
+#contact-section .button-block{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-section .submit{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: #7FC2FF;
+    color: #36424C;
+    border: 2px solid #36424C;
+}
+
+#contact-section .submit:hover{
+    background-color: white;
+    color: #3A80C2;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+/* destinations page */
+
+/* main */
+
+#main-destinations{
+    position: relative;
+    top: 60px;
+    margin: 40px 0px 60px 0px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+    background-image: url("tom-barrett-M0AWNxnLaMw-unsplash (1).jpg");
+    background-size: cover;
+}
+
+#main-destinations .destination{
+    margin: 20px 20px 30px 20px;
+    padding: 30px 40px;
+    background-color: #7FC2FF;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+
+#main-destinations h2{
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #36424C;
+}
+
+#main-destinations img{
+    width: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#main-destinations img:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#main-destinations .quotes-p{
+    font-size: 70px;
+    text-align: center;
+    margin: 70px;
+    font-family: Cormorant-font, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: normal;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.destination p{
+    text-align: left;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 0px 10px 0px;
+    font-weight: normal;
+    word-spacing: 2px;
+    color: white;
+}
+
+.destination .more-details{
+    font-size: 23px;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px 0px 10px 0px;
+    text-transform: uppercase;
+    background-color: white;
+    color: #36424C;
+    width: 180px;
+    padding: 3px;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.destination .more-details:hover{
+    background-color: #36424C;
+    color: white;
+}
+
+.destination .price{
+    text-align: left;
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+
+/* Fly tickets page */
+
+/* main */
+
+
+#fly-tickets-main{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    background-image: url("pexels-quintin-gellar-3375161.jpg");
+    background-size: cover;
+}
+
+#fly-tickets-main .company{
+    text-align: left;
+    margin: 40px;
+    width: 900px;
+    background-color: #7FC2FF;
+    border-radius: 20px;
+    box-shadow: 10px 5px 15px gray;
+}
+
+#fly-tickets-main img{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    width: 400px;
+}
+
+#fly-tickets-main img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#fly-tickets-main .company-title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #21496E;
+}
+
+#fly-tickets-main p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    word-spacing: 3px;
+    line-height: 27px;
+}
+
+#fly-tickets-main .price{
+    text-align: center;
+    color: #36424C;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#fly-tickets-main .purchase{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #36424C;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid white;
+}
+
+#fly-tickets-main .purchase:hover{
+    background-color: white;
+    color: #36424C;
+    border: 1px solid black;
+}
